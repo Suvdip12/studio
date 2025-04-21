@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,13 +15,13 @@ body {
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
+    --primary: 207 70% 54%; /* Calming blue (#3498db) in HSL */
     --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
+    --secondary: 0 0% 96.1%; /* Light gray (#f2f2f2) in HSL */
     --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
+    --muted: 0 0% 96.1%; /* Light gray (#f2f2f2) in HSL */
     --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
+    --accent: 160 67% 45%; /* Vibrant teal (#1abc9c) in HSL */
     --accent-foreground: 0 0% 9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
@@ -41,6 +42,7 @@ body {
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    font-family: sans-serif;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -86,3 +88,4 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
